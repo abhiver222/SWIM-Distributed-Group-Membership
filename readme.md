@@ -20,6 +20,6 @@ to type 'y' if the user wants to start the program using the current membership 
 needs to reconstruct its membership list" or 'n' to create a new group.
 
 
-The protocol assumes that the cluster will have atleast 4 machines. If you are running it in a different environment, change the INTRODUCES in membership.go to your introducers ip, then pull to the other machines. 
+The protocol assumes that the cluster will have atleast 4 machines. If you are running it in a different environment, change the INTRODUCER in membership.go to your introducers ip, then pull to the other machines. 
 
 The repo consists of a writeup which describes out protocol and how it scales with increasing machines.
