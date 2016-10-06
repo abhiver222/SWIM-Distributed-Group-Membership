@@ -18,3 +18,8 @@ If the program is run on VM1 (the VM with ip = 172.22.149.18/23), the program cr
 the most up to date membership list. On start up, if MList.txt exists in the current directory, the program will prompt the user
 to type 'y' if the user wants to start the program using the current membership list (as in the case if the introducer crashes and
 needs to reconstruct its membership list" or 'n' to create a new group.
+
+
+The protocol assumes that the cluster will have atleast 4 machines. If you are running it in a different environment, change the INTRODUCES in membership.go to your introducers ip, then pull to the other machines. 
+
+The repo consists of a writeup which describes out protocol and how it scales with increasing machines.
