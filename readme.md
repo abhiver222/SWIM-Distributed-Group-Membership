@@ -19,6 +19,8 @@ the most up to date membership list. On start up, if MList.txt exists in the cur
 to type 'y' if the user wants to start the program using the current membership list (as in the case if the introducer crashes and
 needs to reconstruct its membership list" or 'n' to create a new group.
 
+The protocol has verbose logging and the distibuted logs can be queried from one machine by useing my previous distributed grep implementation. [ https://github.com/abhiver222/Distributed-GREP- ]
+
 
 The protocol assumes that the cluster will have atleast 4 machines. If you are running it in a different environment, change the INTRODUCER in membership.go to your introducers ip, then pull to the other machines. 
 
