@@ -25,3 +25,7 @@ The protocol has verbose logging and the distibuted logs can be queried from one
 The protocol assumes that the cluster will have atleast 4 machines. If you are running it in a different environment, change the INTRODUCER in membership.go to your introducers ip, then pull to the other machines. 
 
 The repo consists of a writeup which describes out protocol and how it scales with increasing machines.
+
+TODO: add gossiping for mem list propagation from Introducer
+TODO: add SWIM random messaging in case of packet drops
+TODO: try playing with a TCP connection for some parts but keep UDP for failure detection
