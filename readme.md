@@ -1,10 +1,10 @@
-There are 4 files required to build MP2.
+There are 4 files required to build the program.
     1. membership.go
     2. messages.go
     3. helpers.go
     4. introducer_restart.go
 
-To run the MP2 code, type the command:
+To run the code, type the command:
     go run membership.go messages.go helpers.go introducer_restart.go
 
 To compile an executable, type the command:
