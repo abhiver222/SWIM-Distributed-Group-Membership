@@ -27,5 +27,5 @@ The protocol assumes that the cluster will have atleast 4 machines. If you are r
 The repo consists of a writeup which describes out protocol and how it scales with increasing machines.
 
 TODO: add gossiping for mem list propagation from Introducer
-TODO: add SWIM random messaging in case of packet drops
+TODO: add SWIM infection [epidemic] style messaging in case of packet drops
 TODO: try playing with a TCP connection for some parts but keep UDP for failure detection
